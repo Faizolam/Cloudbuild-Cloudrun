@@ -23,3 +23,6 @@ steps:
   # Optional: if you want to allow unauthenticated access
   - '--allow-unauthenticated'
 
+# Optional: Specify logging options
+options:
+  logging: CLOUD_LOGGING_ONLY  # Use CLOUD_LOGGING_ONLY or NONE based on your preference
