@@ -1,0 +1,20 @@
+Cloud build ---> Container image ----> Cloud run
+1. Make a repo in Github
+2. Goto Cloud build --> Dashboard and selelct Region and click set up build trigger
+* Name: web-build
+* Region: (eg: us-central1)
+* Event: Push to a branch
+* Source:
+	Repository: select or connect new repository
+		Select source code management provider (eg. Github)
+		Authenticate
+		Select repository
+			Github Account
+			Repository : Select or Edit repository on Github
+			connect
+
+	Branch: *main$ or *newBranch$
+
+	Create
+3. Now Clone GitHub Repo and edit the code and push it.
+

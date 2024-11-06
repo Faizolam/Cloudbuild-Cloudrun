@@ -1,0 +1,8 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/prime-team-434403-p9/docker-container-file/my-build:stage', '.' ]
+images:
+- 'us-central1-docker.pkg.dev/prime-team-434403-p9/docker-container-file/my-build:stage'
+
+# Change the file name to cloudbuild.yaml when you submit the job in Google CLI.
+ 
